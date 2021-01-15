@@ -1,0 +1,67 @@
+@import url('https://fonts.google.com/specimen/Sacramento#standard-styles');
+
+body{
+    margin: 0;
+    background-color: #ffb4d7;
+    color: #000000;
+    font-family: 'Sacramento', cursive;
+}
+
+.container nav{
+    height: 80px;
+    background-color: #dcbdff;
+}
+
+nav button{
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 280px;
+}
+
+.oldal{
+    min-height: calc(100vh - 100px);
+    padding: 50px;
+}
+ul{
+    list-style-type: none;
+    margin-left: 150px;
+    
+
+}
+.footer{
+    height: 50px;
+    width: 100%;
+    background-color: #dcbdff;
+}
+
+#profil_oldal{
+    background-color: rgb(233, 168, 202);
+}
+
+#kaland_oldal{
+    background-color: #a6ebfc;
+    display: none;
+}
+
+#kaland_oldal button{
+    max-width: 500px;
+    width: 50%;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#kaland_oldal button:hover{
+    background-color: rgba(0, 0, 0, 0);
+    font-weight: bold;
+    color: white;
+}
+#kepek{
+    width:100%;
+    margin-left: 150px;
+}
+#leiras{
+    margin-left: 150px;
+    margin-top: 100px;
+}

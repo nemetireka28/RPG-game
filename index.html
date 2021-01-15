@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="hu">
+  <head>
+    <title>Légy te a legplasztikabb!</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
+    <div class="container">
+        <nav class="mynavbar">
+            <button id="karakter_gomb" onclick="switch_to_profil()">Karakterem</button>
+            <button id="kaland_gomb" onclick="switch_to_tortenet()">Kalandok</button>
+
+            <button onclick="kovetkezo_szint()">Szintlépés</button>
+        </nav>
+
+        <div id="profil_oldal" class="oldal">
+            <div class="row">
+                <div class="col-md-4 pics_holder">
+                    <img src="0.jpg" id="kepek">
+                </div>
+                <div class="col-md-8">
+                    <p id="leiras"></p>
+                    <ul>
+                        <li>Pénz mennyisége: <b id="profil_penz"></b> </li>
+                        <li>Szájméret: <b id="profil_szajmeret"></b> <button onclick="update_szajmeret()" class="addButtons">+</button> </li>
+                        <li>Mellek mérete: <b id="profil_mellekmerete"></b> <button onclick="update_mellmeret()" class="addButtons">+</button></li>
+                        <li>Botox: <b id="profil_botox"></b> <button onclick="update_botox()" class="addButtons">+</button> </li>
+                        <li>Szintlépés: <b id="kovi_szint"></b></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+
+        <div id="kaland_oldal" class="oldal">
+            <div id="tortenet"></div>
+            <button onclick="sugardaddy()">Elmegyek balekokat fogni!</button>
+        </div>
+
+        <div class="footer"></div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="spa.js"></script>
+    <script src="game.js"></script>
+  </body>
+</html>
